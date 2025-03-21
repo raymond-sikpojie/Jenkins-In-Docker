@@ -1,7 +1,5 @@
 # Jenkins Docker Pipeline Setup
 
-# Jenkins in Docker with Docker Build Support
-
 This repository contains scripts and configuration files to run Jenkins in a Docker container with the ability to build Docker images from within your Jenkins pipelines.
 
 ## Files in this Repository
