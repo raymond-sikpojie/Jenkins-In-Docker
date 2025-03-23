@@ -17,6 +17,8 @@ services:
       # Unset these variables to avoid looking for certificates
       - DOCKER_TLS_VERIFY=
       - DOCKER_CERT_PATH=
+    # run script to install docker cli in the jenkins container
+    entrypoint: ["/bin/bash", "-c", "chmod +x /install-docker.sh && /install-docker.sh && /usr/local/bin/jenkins.sh"]
 
 volumes:
   jenkins_home:

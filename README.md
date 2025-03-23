@@ -37,7 +37,7 @@ chmod +x docker-cleanup.sh
 docker-compose up -d
 ```
 
-### 4. Install Docker CLI inside Jenkins Container
+### 4. [SKIP THIS STEP ]Install Docker CLI inside Jenkins Container
 
 ```bash
 docker exec jenkins ./install-docker.sh
